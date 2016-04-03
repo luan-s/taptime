@@ -6,7 +6,7 @@ body .app{
 }
 
 .app{
-  width: 500px !important;
+  width: 100% !important;
 }
 
 
@@ -46,4 +46,10 @@ body .app{
   margin: auto;
   text-align:center;
 
+}
+
+@media (min-width: 500px) {
+  .app{
+      width: 500px !important;
+  }
 }

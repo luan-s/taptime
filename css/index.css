@@ -4,7 +4,7 @@ body .app {
   margin: auto; }
 
 .app {
-  width: 500px !important; }
+  width: 100% !important; }
 
 .nums {
   height: 100px !important;
@@ -37,5 +37,9 @@ body .app {
   transform: translateY(-50%);
   margin: auto;
   text-align: center; }
+
+@media (min-width: 500px) {
+  .app {
+    width: 500px !important; } }
 
 /*# sourceMappingURL=index.css.map */
