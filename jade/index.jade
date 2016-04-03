@@ -1,0 +1,64 @@
+doctype
+html
+	head
+		meta(charset='utf-8')
+		meta(name='format-detection', content='telephone=no')
+		meta(name='msapplication-tap-highlight', content='no')
+		// WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323
+		meta(name='viewport', content='user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi')
+		link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
+		link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.1/bootstrap-material-design.css')
+		link(rel='stylesheet', type='text/css', href='css/index.css')
+		title Hello World
+	body
+		.app
+			.content-1
+				.cont.col-xs-12
+					h2
+						span.min 00
+						span :
+						span.seg 00
+						span :
+						span.dec 00
+					
+
+				.cont.col-xs-6
+					a.btn.btn-raised.btn-default.nums(href='javascript:void(0)').col-xs-11#1 1
+				.cont.col-xs-6
+					a.btn.btn-raised.btn-primary.nums(href='javascript:void(0)').col-xs-11#2 2
+				.cont.col-xs-6
+					a.btn.btn-raised.btn-success.nums(href='javascript:void(0)').col-xs-11#3 3
+				.cont.col-xs-6
+					a.btn.btn-raised.btn-info.nums(href='javascript:void(0)').col-xs-11#4 4
+				.cont.col-xs-6
+					a.btn.btn-raised.btn-warning.nums(href='javascript:void(0)').col-xs-11#5 5
+				.cont.col-xs-6
+					a.btn.btn-raised.btn-danger.nums(href='javascript:void(0)').col-xs-11#6 6
+				
+				.cont-progres.col-xs-12
+					a.btn.btn-raised.btn-sm.restart Recomeçar
+					.progress.progress-striped.active
+
+						.progress-bar
+
+		
+			.content-2.col-xs-12.hidden
+				h1 Parabens !
+				h2
+						span.min 00
+						span :
+						span.seg 00
+						span :
+						span.dec 00
+				h3#tentativas Tentativas: 
+				a.btn.btn-raised.btn-sm(href='javascript:void(0)').restart Recomeçar
+
+
+
+			script(src="bower_components/jquery/dist/jquery.min.js")
+			script(src="bower_components/bootstrap/dist/js/bootstrap.min.js")
+			script(src="bower_components/bootstrap-material-design/dist/js/material.min.js")
+			script(type='text/javascript', src='cordova.js')
+			script(type='text/javascript', src='js/index.js')
+			script(type='text/javascript').
+				app.initialize();
