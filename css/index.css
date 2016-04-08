@@ -12,12 +12,22 @@ body {
 .app {
   width: 100% !important; }
 
+.life {
+  text-align: right;
+  padding-right: 30px; }
+  .life .cora {
+    width: 20px;
+    height: 20px; }
+
 .nums {
   padding: 40px 0;
   margin-left: 5px !important;
   margin-top: 20px;
-  border: 1px solid black;
-  transition: all 0.3s linear; }
+  border: 3px solid black;
+  transition: all 0.3s linear;
+  border-radius: 10px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px; }
 
 .cont {
   border: 0px solid black;
@@ -27,11 +37,16 @@ body {
   padding-top: 30px; }
 
 .cont-progres {
+  position: absolute;
+  top: 90%;
   margin-top: 20px;
   text-align: center; }
 
 .progress-bar {
   width: 0%; }
+
+.showTime {
+  border: 0px solid black; }
 
 .progress-striped {
   height: 15px; }
