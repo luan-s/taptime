@@ -21,8 +21,6 @@ var app = {
     }
 };
 
-
-
 levelAtual = 0;
 tempoRodada = 15;
 var vet = [];
