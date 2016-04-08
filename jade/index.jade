@@ -9,32 +9,18 @@ html
 		link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
 		link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.1/bootstrap-material-design.css')
 		link(rel='stylesheet', type='text/css', href='css/index.css')
-		title Hello World
+		title Tap Time
 	body
 		.app
 			.content-1
 				.cont.col-xs-12
+					h2#level
 					h2
-						span.min 00
-						span :
 						span.seg 00
 						span :
 						span.dec 00
-					
-
-				.cont.col-xs-6
-					a.btn.btn-raised.btn-default.nums(href='javascript:void(0)').col-xs-11#1 1
-				.cont.col-xs-6
-					a.btn.btn-raised.btn-primary.nums(href='javascript:void(0)').col-xs-11#2 2
-				.cont.col-xs-6
-					a.btn.btn-raised.btn-success.nums(href='javascript:void(0)').col-xs-11#3 3
-				.cont.col-xs-6
-					a.btn.btn-raised.btn-info.nums(href='javascript:void(0)').col-xs-11#4 4
-				.cont.col-xs-6
-					a.btn.btn-raised.btn-warning.nums(href='javascript:void(0)').col-xs-11#5 5
-				.cont.col-xs-6
-					a.btn.btn-raised.btn-danger.nums(href='javascript:void(0)').col-xs-11#6 6
-				
+                      
+				.botoes			
 				.cont-progres.col-xs-12
 					a.btn.btn-raised.btn-sm.restart Recomeçar
 					.progress.progress-striped.active
@@ -43,10 +29,8 @@ html
 
 		
 			.content-2.col-xs-12.hidden
-				h1 Parabens !
+				h1#resu Parabens !
 				h2
-						span.min 00
-						span :
 						span.seg 00
 						span :
 						span.dec 00
@@ -57,8 +41,8 @@ html
 
 			script(src="bower_components/jquery/dist/jquery.min.js")
 			script(src="bower_components/bootstrap/dist/js/bootstrap.min.js")
-			script(src="bower_components/bootstrap-material-design/dist/js/material.min.js")
-			script(type='text/javascript', src='cordova.js')
+			//script(src="bower_components/bootstrap-material-design/dist/js/material.min.js")
+			//script(type='text/javascript', src='cordova.js')
 			script(type='text/javascript', src='js/index.js')
 			script(type='text/javascript').
 				app.initialize();

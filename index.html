@@ -9,20 +9,16 @@
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.1/bootstrap-material-design.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <title>TapTime</title>
+    <title>Tap Time</title>
   </head>
   <body>
     <div class="app">
       <div class="content-1">
         <div class="cont col-xs-12">
-          <h2><span class="min">00</span><span>:</span><span class="seg">00</span><span>:</span><span class="dec">00</span></h2>
+          <h2 id="level"></h2>
+          <h2><span class="seg">00</span><span>:</span><span class="dec">00</span></h2>
         </div>
-        <div class="cont col-xs-6"><a href="javascript:void(0)" id="1" class="btn btn-raised btn-default nums col-xs-11">1</a></div>
-        <div class="cont col-xs-6"><a href="javascript:void(0)" id="2" class="btn btn-raised btn-primary nums col-xs-11">2</a></div>
-        <div class="cont col-xs-6"><a href="javascript:void(0)" id="3" class="btn btn-raised btn-success nums col-xs-11">3</a></div>
-        <div class="cont col-xs-6"><a href="javascript:void(0)" id="4" class="btn btn-raised btn-info nums col-xs-11">4</a></div>
-        <div class="cont col-xs-6"><a href="javascript:void(0)" id="5" class="btn btn-raised btn-warning nums col-xs-11">5</a></div>
-        <div class="cont col-xs-6"><a href="javascript:void(0)" id="6" class="btn btn-raised btn-danger nums col-xs-11">6</a></div>
+        <div class="botoes">			</div>
         <div class="cont-progres col-xs-12"><a class="btn btn-raised btn-sm restart">Recomeçar</a>
           <div class="progress progress-striped active">
             <div class="progress-bar"></div>
@@ -30,14 +26,14 @@
         </div>
       </div>
       <div class="content-2 col-xs-12 hidden">
-        <h1>Parabens !</h1>
-        <h2><span class="min">00</span><span>:</span><span class="seg">00</span><span>:</span><span class="dec">00</span></h2>
+        <h1 id="resu">Parabens !</h1>
+        <h2><span class="seg">00</span><span>:</span><span class="dec">00</span></h2>
         <h3 id="tentativas">Tentativas: </h3><a href="javascript:void(0)" class="btn btn-raised btn-sm restart">Recomeçar</a>
       </div>
       <script src="bower_components/jquery/dist/jquery.min.js"></script>
       <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script src="bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-      <script type="text/javascript" src="cordova.js"></script>
+      <!--script(src="bower_components/bootstrap-material-design/dist/js/material.min.js")-->
+      <!--script(type='text/javascript', src='cordova.js')-->
       <script type="text/javascript" src="js/index.js"></script>
       <script type="text/javascript">app.initialize();</script>
     </div>
