@@ -39,6 +39,7 @@ body {
 .cont-progres {
   position: absolute;
   top: 90%;
+  width: 500px;
   margin-top: 20px;
   text-align: center; }
 
