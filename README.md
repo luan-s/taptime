@@ -1,2 +1,2 @@
 # taptime
-### [luan-s.github.io/taptime](http://luan-s.github.io/taptime/)
+### [luanjs.github.io/taptime](http://luanjs.github.io/taptime/)
